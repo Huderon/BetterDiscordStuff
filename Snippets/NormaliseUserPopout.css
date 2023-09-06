@@ -1,0 +1,84 @@
+div:where(.layer-2BGhQ8, .layer-fP3xEz) .userProfileOuterThemed-2BgJCM {
+  --profile-gradient-primary-color: var(--background-secondary-alt) !important;
+  --profile-gradient-secondary-color: var(
+    --background-secondary-alt
+  ) !important;
+  --profile-gradient-overlay-color: transparent !important;
+  --profile-gradient-button-color: var(
+    --button-secondary-background
+  ) !important;
+  --profile-avatar-border-color: var(--background-secondary-alt) !important;
+  --profile-message-input-border-color: var(
+    --background-modifier-accent
+  ) !important;
+  --profile-body-background-color: var(--background-floating) !important;
+  --profile-body-background-hover: var(--background-modifier-hover) !important;
+  --profile-body-divider-color: var(--background-modifier-accent) !important;
+  --profile-role-pill-background-color: var(
+    --background-secondary-alt
+  ) !important;
+  --profile-role-pill-border-color: var(--interactive-normal) !important;
+  --account-profile-popout-menu-hover: var(--brand-experiment-560) !important;
+}
+div:where(.layer-2BGhQ8, .layer-fP3xEz)
+  .userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+  padding: 0;
+}
+.userProfileInnerThemedWithBanner-25XGmz .banner-1YaD3N {
+  background-image: none !important;
+}
+div:where(.layer-2BGhQ8, .layer-fP3xEz)
+  .bannerSVGWrapper-2CLfzN
+  foreignObject {
+  mask: none;
+  width: 200%;
+  transform: translate(-170px, 0);
+}
+.avatarDecoration-2Wb1Au,
+.avatarDecorationHint-3n-p6O,
+.premiumIconWrapper-32h0Ri {
+  display: none;
+}
+.rolePillBorder-3R4Bb5 {
+  border: none;
+}
+.avatarWrapper-eenWra::before,
+.wrapper-3Un6-K.avatar-3QF_VA::before {
+  content: " ";
+  font-size: 0px;
+  background: linear-gradient(
+    var(--profile-gradient-primary-color),
+    var(--profile-gradient-primary-color) 90px,
+    var(--profile-gradient-secondary-color)
+  );
+  float: left;
+  border-radius: 50%;
+  margin: -7px;
+}
+.layer-2BGhQ8
+  .userProfileOuterThemed-2BgJCM
+  .bannerSVGWrapper-2CLfzN {
+  height: 60px;
+  min-height: unset !important;
+}
+.avatarPositionPremiumBanner-2EAbSH,
+.avatarPositionPremiumNoBanner-2u3xDC {
+  top: 16px;
+}
+.avatarWrapper-eenWra::before {
+  height: 94px;
+  width: 94px;
+}
+.focusLock-bHVOlV .bannerSVGWrapper-2CLfzN {
+  min-height: unset !important;
+  height: 106px;
+}
+.focusLock-bHVOlV .bannerSVGWrapper-2CLfzN foreignObject {
+  mask: none;
+  width: 200%;
+  transform: translate(-300px, 0);
+}
+.wrapper-3Un6-K.avatar-3QF_VA:before {
+  height: 134px;
+  width: 134px;
+}

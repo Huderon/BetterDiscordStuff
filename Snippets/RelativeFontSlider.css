@@ -1,0 +1,75 @@
+:root {
+  --font-size: 16;
+}
+.marginTop20-2T8ZJx:first-child .mark-3BqK0R .markValue-21gAVC {
+  font-size: 0px;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R .markValue-21gAVC::after {
+  position: absolute;
+  font-size: 10px;
+  left: 2.5px;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:first-child
+  .markValue-21gAVC::after {
+  counter-increment: font-size-xxsm calc(var(--font-size) * 0.75);
+  content: counter(font-size-xxsm) "px";
+}
+.font-size-12 {
+  font-size: calc(var(--font-size) * 1px * 0.75) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(2)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-xsm calc(var(--font-size) * 0.875);
+  content: counter(font-size-xsm) "px";
+}
+.font-size-14 {
+  font-size: calc(var(--font-size) * 1px * 0.875) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(3)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-sm calc(var(--font-size) * 0.9375);
+  content: counter(font-size-sm) "px";
+}
+.font-size-15 {
+  font-size: calc(var(--font-size) * 1px * 0.9375) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(4)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-m calc(var(--font-size) * 1);
+  content: counter(font-size-m) "px";
+}
+.font-size-16 {
+  font-size: calc(var(--font-size) * 1px * 1) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(5)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-l calc(var(--font-size) * 1.125);
+  content: counter(font-size-l) "px";
+}
+.font-size-18 {
+  font-size: calc(var(--font-size) * 1px * 1.125) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(6)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-xl calc(var(--font-size) * 1.25);
+  content: counter(font-size-xl) "px";
+}
+.font-size-20 {
+  font-size: calc(var(--font-size) * 1px * 1.25) !important;
+}
+.marginTop20-2T8ZJx:first-child
+  .mark-3BqK0R:nth-child(7)
+  .markValue-21gAVC::after {
+  counter-increment: font-size-xxl calc(var(--font-size) * 1.5);
+  content: counter(font-size-xxl) "px";
+}
+.font-size-24 {
+  font-size: calc(var(--font-size) * 1px * 1.5) !important;
+}
